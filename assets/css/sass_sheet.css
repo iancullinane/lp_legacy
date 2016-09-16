@@ -1,0 +1,59 @@
+/* @import 'global';
+@import 'content-block'; */
+#map {
+  min-height: 550px;
+  min-width: 1000px; }
+
+.small-padding {
+  padding-bottom: 5px;
+  padding-top: 30px; }
+
+.hero-unit.landing {
+  padding: 60px 60px 0 60px;
+  /* margin-top: 50px; */
+  padding-top: 120px;
+  height: 0;
+  padding: 0;
+  /* remove any pre-existing padding, just in case */
+  padding-bottom: 60%;
+  /* for a 4:3 aspect ratio */
+  background-image: url(../img/header/mop-header-2.jpg);
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  .hero-unit.landing h1 {
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.4);
+    text-align: left;
+    margin-top: 80px;
+    font-size: 2.9vw; }
+  .hero-unit.landing p {
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4);
+    font-size: 1.8vw;
+    color: white;
+    text-align: left;
+    font-weight: 300;
+    padding: 10px 0 0; }
+  .hero-unit.landing h2 {
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.4);
+    font-size: 2.2vw;
+    color: white; }
+
+/* 
+ * Promise
+ */
+.promise .promise_image {
+  margin-top: 50px;
+  background-image: url(../img/cleaning.jpg);
+  background-size: cover;
+  height: 500px; }
+.promise h1 {
+  /* font-family: $bistro_script; */ }
+
+@media (min-width: 1000px) {
+  .hero-unit.landing h1 {
+    font-size: 3.5vw; } }
+@media (min-width: 1200px) {
+  .container #number {
+    font-size: 1.9vw; } }
+
+/*# sourceMappingURL=sass_sheet.css.map */
